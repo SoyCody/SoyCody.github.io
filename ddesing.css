@@ -1,0 +1,141 @@
+body {
+    margin: o;
+    background-color: black;
+}
+#cabecera {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: url(imagenes/cabecera.png);
+    text-align: center;
+    text-shadow: 8px 10px 10px black;
+    padding: 50px;
+    color: white;
+    border-radius: 20px;
+    font-size: 45px;
+}
+
+a:link{
+    color:white;
+}    
+a:visited{
+    color:black;
+}
+a:hover{
+    color:white;
+}
+a:active{
+    color:chartreuse;
+}
+
+.cont {
+    display: flex;
+    width: 50%;
+    background-color:#4C585B;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.9);
+    margin:0 auto;
+    color: white
+}
+
+.cara {
+    flex: 1;
+}
+
+.descripcion {
+    flex: 2;
+    padding-left: 20px;
+}
+
+h1 {
+    padding: 40px 60px 0px;
+    color:#4C585B;
+}
+
+p {
+    font-size: 20px;
+}
+
+.coes {
+    padding: 15px; 
+    width: 25%;
+    background-color: #7E99A3;
+    color: white;
+    border-radius: 15px; 
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+}
+
+.competencias {
+    display: flex;
+    justify-content: space-between; 
+    gap: 5px;
+}
+
+.software {
+    padding: 15px;
+    width: 25%;
+    background-color: #7E99A3;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.educacion {
+    width: 24%; 
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: url(imagenes/cabecera.png);
+    padding: 7%;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    margin: 0 auto; /* Centra horizontalmente */
+    display: flex;
+    flex-direction: column; /* Mantiene los elementos en columna */
+    align-items: center; /* Centra los elementos internamente */
+}
+
+.arriba {
+    background-color: #4C585B;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 60%; /* Ajusta el ancho para que los elementos ocupen más espacio */
+    margin-bottom: 10px;
+}
+
+.abajo {
+    width: 100%;
+    background-color: #7E99A3;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.intereses {
+    background: #7E99A3;
+    width: 30%;
+    color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.9);
+}
+
+.final {
+    background: #4C585B;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.copy {
+    text-align: right;
+    font-size: 15px;
+}
