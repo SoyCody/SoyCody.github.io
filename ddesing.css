@@ -50,7 +50,7 @@ a:active{
 
 h1 {
     padding: 40px 60px 0px;
-    color:#4C585B;
+    color:#71BBB2;
 }
 
 p {
@@ -71,10 +71,11 @@ p {
     display: flex;
     justify-content: space-between; 
     gap: 5px;
+    margin: 30px;
 }
 
 .software {
-    padding: 15px;
+    padding: 30px;
     width: 25%;
     background-color: #7E99A3;
     color: white;
@@ -91,7 +92,7 @@ p {
     padding: 7%;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.9);
     border-radius: 15px;
-    margin: 0 auto; /* Centra horizontalmente */
+    margin: 0 auto;
     display: flex;
     flex-direction: column; /* Mantiene los elementos en columna */
     align-items: center; /* Centra los elementos internamente */
@@ -138,4 +139,17 @@ p {
 .copy {
     text-align: right;
     font-size: 15px;
+}
+.avances {
+    background-color: #4C585B;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+    padding: 30px;
+}
+
+p {
+    text-align: justify;
 }

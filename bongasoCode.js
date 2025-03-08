@@ -22,7 +22,3 @@ function direccionar() {
         console.error("");
     }
 }
-
-function myPage() {
-    window.location.href="principal.html";
-}
