@@ -18,7 +18,7 @@ function direccionar() {
                 console.error("Opción no válida")    
         }
     } else {
-        document.getElementById("excepcion").innerText = "Contraseña incorrecta";
+        document.getElementById("excepcion").innerText = "Intentelo de nuevo";
         console.error("");
     }
 }

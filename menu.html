@@ -3,25 +3,27 @@
 <head>
     <title>Bongoloco</title>
     <link rel="stylesheet" href="desing.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <form method="post" id="miFormulario">
+    <form action="" method="post" id="miFormulario">
         <div class="cont">
             <div class="title">Registro</div>
             <br><br>
             <div class="input">
                 <label for="nombres">Nombres Completos</label>
-                <input type="text" id="nombres" name="nombres" 
-                placeholder="Ingrese sus nombres completos">
+                <input required type="text" id="nombres" name="nombres" 
+                placeholder="Ingrese sus nombres completos" minlength="3" maxlength="10">
                 <br><br>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" 
-                placeholder="Ingrese su email">
+                <input required type="email" id="email" name="email" 
+                placeholder="Ingrese su email" minlength="8" maxlength="20">
                 <br><br>
 
                 <label for="telefono">Número telefónico</label>
-                <input type="number" id="telefono" name="telefono" placeholder="Su número">
+                <input type="number" id="telefono" name="telefono" placeholder="Su número"
+                maxlength="10">
             </div>
             <br>
 
@@ -39,10 +41,12 @@
             </select>
             <br><br>
             <label for="contra1">Contraseña</label>
-            <input type="password" id="contra1" name="contra1" placeholder="Ingrese una nueva contraseña">
+            <input required type="password" id="contra1" name="contra1" 
+            placeholder="Ingrese una nueva contraseña" minlength="8">
             <br><br>
             <label for="contra2">Repita su contraseña</label>
-            <input type="password" id="contra2" name="contra2" placeholder="Ingresela de nuevo">
+            <input required type="password" id="contra2" name="contra2" 
+            placeholder="Ingresela de nuevo" minlength="8">
             <p id="excepcion"></p>
             <br><br>
             <button type="reset">Borrar</button>
